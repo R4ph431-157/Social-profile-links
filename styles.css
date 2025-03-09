@@ -13,11 +13,10 @@ body {
   font-weight: 600;
   background-color: hsl(0, 0%, 8%);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  display: grid;
+  place-items: center;
   min-height: 100vh;
-  margin: 0;
   
 }
 
@@ -25,7 +24,6 @@ main {
   background-color: hsl(0, 0%, 12%);
   width: 90%;
   max-width: 31rem;
-  margin: 7rem auto;
   padding: 25px;
   border-radius: 20px;
  
@@ -103,6 +101,7 @@ li {
   main {
     width: 80%;
     padding: 40px;
+    margin: 5rem auto;
   }
   .description {
     font-size: 1rem;
